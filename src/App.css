@@ -1,0 +1,111 @@
+#temp-style{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+	background-color: rgb(226, 224, 223);
+}
+
+legend {
+	color: white;
+	background-color: rgb(137, 19, 229);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: lightslategrey;
+
+}
+
+
+.profil{
+	border-style: solid;
+	border-color: rgb(137, 19, 229);
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 5px; 
+  min-width: 370px;
+  padding-bottom:20px;
+  margin-top: 50px;
+}
+
+.selection{
+	margin-left: 2px;
+	margin-right: 2px;
+	resize: none;
+	text-align : center;
+	justify-content: center;
+	align-items: center;
+}
+
+.column {
+display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px;
+}
+
+.row_avatar::after {
+	content: "";
+  clear: both;
+  display: table;
+    text-align:center;
+}
+
+hr.separator {
+  display: flex;
+  border-top: 3px solid #bbb;
+  color: black;
+  float:  center;
+  max-width: 250px;
+  
+ 
+  
+}
+
+.column_couleur_peau {
+display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row_couleur_peau::after {
+	content: "";
+  clear: both;
+  display: table;
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.column_couleur_tshirt {
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row_couleur_tshirt::after {
+	content: "";
+  clear: both;
+  display: table;
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.button {
+	background-color: #008CBA;
+	padding: 12px;
+	color: white;
+	border-radius: 20px; 
+	float: center;
+  margin-top: 100;
+
+
+}
