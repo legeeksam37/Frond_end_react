@@ -23,12 +23,12 @@ const Test = () => {
                 {
                     loading ? //récupère l'etat de loading et affihce le loader si true ou affiche le code de l'application si false
                     
-                    <loader>
+                    
                         <SyncLoader
                          color={"#36D7B7"} 
                          loading={loading}
                           size={150} />
-                     </loader>
+                     
                     :
 
 
